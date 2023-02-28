@@ -1,0 +1,25 @@
+arr=[]
+
+arr2=[] 
+
+size=int(input("Enter size of array: "))
+
+for i in range(0,size):
+    x=int(input("Enter a number :"))
+    
+    arr.append(x)
+    
+
+   
+  
+for i in range(0,size):
+   t1=arr[i]
+   t2=arr[(i+1)%size]
+   
+   arr[(i+1)%size]=t1
+
+
+
+print(arr)
+  
+
