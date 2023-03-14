@@ -1,25 +1,17 @@
-arr=[]
+#swap two elements in list
 
-arr2=[] 
+# Swap function
+def swapList(sl,pos1,pos2):
+    n = len(sl)     
+    # Swapping 
+    temp = sl[pos1]
+    sl[pos1] = sl[pos2]
+    sl[pos2] = temp
+    return sl      
 
-size=int(input("Enter size of array: "))
+l= [10, 14, 5, 9, 56, 12]
+pos1= 2
+pos2= 5
 
-for i in range(0,size):
-    x=int(input("Enter a number :"))
-    
-    arr.append(x)
-    
-
-   
-  
-for i in range(0,size):
-   t1=arr[i]
-   t2=arr[(i+1)%size]
-   
-   arr[(i+1)%size]=t1
-
-
-
-print(arr)
-  
-
+print(l)
+print("Swapped list: ",swapList(l,pos1-1,pos2-1))
