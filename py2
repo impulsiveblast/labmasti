@@ -15,3 +15,98 @@ pos2= 5
 
 print(l)
 print("Swapped list: ",swapList(l,pos1-1,pos2-1))
+
+
+#problem 2
+#N largest elements
+#sorting
+#function
+def N_max_elements(list, N):
+    list.sort()     
+    return list[-N: ]
+
+#input
+li=[]
+n=int(input("Enter size of list "))
+for i in range(0,n):
+    e=int(input("Enter element of list "))
+    li.append(e)
+n=int(input("Enter N"))
+print(n, "max elements in ",li)
+  
+# Calling and printing the function
+print(N_max_elements(li, n))
+
+#problem 3
+list1 = [[], [], [], 'Red', 'Green', [1,2], 'Blue', [], []]
+print("Original list:")
+print(list1)
+print("\nAfter deleting the empty lists from the said lists of lists")
+list2 = [x for x in list1 if x]
+print(list2)
+
+#problem 4
+# Python code to count the number of occurrences
+
+def countX(lst, x):
+
+    return lst.count(x)
+ 
+ 
+# Driver Code
+
+lst = [8, 6, 8, 10, 8, 20, 10, 8, 8]
+
+x = 8
+
+print('{} has occurred {} times'.format(x, 
+
+                                        countX(lst, x)))
+
+#problem 5
+# create a list with 7 integer elements
+
+data=[1,2,3,4,5,6,7]
+ 
+# use list comprehension to get square
+# of odd numbers
+
+result = [i*i for i in data if i%2!=0]
+ 
+# display the result
+
+print(result)
+
+#problem 6
+# Python program to remove common elements
+# in the two lists using remove method
+ 
+ 
+
+def remove_common(a, b):
+ 
+
+    for i in a[:]:
+
+        if i in b:
+
+            a.remove(i)
+
+            b.remove(i)
+ 
+
+    print("list1 : ", a)
+
+    print("list2 : ", b)
+ 
+ 
+
+if __name__ == "__main__":
+ 
+
+    a = [1, 2, 3, 4, 5]
+
+    b = [4, 5, 6, 7, 8]
+ 
+
+    remove_common(a, b)
