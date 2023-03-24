@@ -1,24 +1,4 @@
 COA Topics list
-Chapter-1  ❌
-Chapter -2 ❌
-Chapter-3 ❌
-
-Chapter-4:
-Register transfer language
-Register transfer
-Bus and memory
-Arithmetic - micro operation
-      - binary adder❌
-     -binary Subtractor❌
-    -binary increment❌
-Logic micro operations
-    - list of micro operations
-    - selective set❌
-    - selective complement❌
-    - selective clear❌
-Shift - micro operations
-Arithmetic -logic shift unit
-Haridware description❌
 
 Chapter-5:
 
@@ -35,21 +15,17 @@ Design of accumulator logic
 
 Chapter-6: 
 Machine language
-Binary program- table
-Hexa decimal program- table
 Assembly language program- table
 Fortan program-  table
 Assembly language
-The assembler
+
 First-pass
 Second- pass
 Program Loop
     - symbol program to add 100 numbers (table) 
-Program arithmetic and logic operations- sir's notes
+
 Sub-routines
     - use sub-routine_table 6.16
-    - sub-routine parameter data❌
-    - sub-routine to move data ❌
 Input/ output programming
    - program to input l output- 1 char ( table) 
 Program interrupt 
