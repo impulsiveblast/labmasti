@@ -1,22 +1,57 @@
-a) SELECT First_Name AS E_Name FROM Employee;
-b) SELECT UPPER(Last_Name) FROM Employee;
-c) SELECT SUBSTR(First_Name, 1, 3) FROM Employee;
-d) SELECT DISTINCT Department, LENGTH(Department) FROM Employee;
-e) SELECT REPLACE(First_Name, 'a', 'A') FROM Employee;
-f) SELECT * FROM Employee ORDER BY First_Name ASC, Department DESC;
-g) SELECT * FROM Employee WHERE First_Name LIKE '____h';
-h) SELECT * FROM Employee WHERE Joining_Date BETWEEN '2014-02-01' AND '2014-02-28';
-i) SELECT First_Name, Salary FROM Employee WHERE Salary >= 50000 AND Salary <= 100000;
-j) SELECT Department, COUNT() AS No_Of_Employees FROM Employee GROUP BY Department ORDER BY No_Of_Employees DESC;
-k) SELECT * FROM Employee WHERE E_id IN (SELECT E_Ref_Id FROM Job_Title);
-l) SELECT * FROM Employee WHERE (E_id, First_Name, Last_Name) IN (SELECT E_id, First_Name, Last_Name FROM Employee GROUP BY E_id, First_Name, Last_Name HAVING COUNT() > 1);
-m) SELECT * FROM Employee INTERSECT SELECT * FROM Bonus;
-n) SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC LIMIT 4,1;
-o) SELECT DISTINCT Salary FROM Employee e1 WHERE 4 = (SELECT COUNT(DISTINCT Salary) FROM Employee e2 WHERE e2.Salary > e1.Salary);
-p) SELECT * FROM Employee WHERE Salary IN (SELECT Salary FROM Employee GROUP BY Salary HAVING COUNT() > 1);
-q) SELECT Salary FROM Employee ORDER BY Salary DESC LIMIT 1,1;
-r) SELECT Department, COUNT() AS No_Of_Employees FROM Employee GROUP BY Department;
-s) SELECT First_Name, Salary FROM Employee e1 WHERE Salary = (SELECT MAX(Salary) FROM Employee e2 WHERE e2.Department = e1.Department);
-t) SELECT MIN(Salary) FROM Employee GROUP BY Salary ORDER BY Salary ASC LIMIT 3;
-u) SELECT Department, SUM(Salary) AS Total_Salary FROM Employee GROUP BY Department;
-v) SELECT First_Name FROM Employee WHERE Salary = (SELECT MAX(Salary) FROM Employee);
+COA Topics list
+Chapter-1  ❌
+Chapter -2 ❌
+Chapter-3 ❌
+
+Chapter-4:
+Register transfer language
+Register transfer
+Bus and memory
+Arithmetic - micro operation
+      - binary adder❌
+     -binary Subtractor❌
+    -binary increment❌
+Logic micro operations
+    - list of micro operations
+    - selective set❌
+    - selective complement❌
+    - selective clear❌
+Shift - micro operations
+Arithmetic -logic shift unit
+Haridware description❌
+
+Chapter-5:
+
+Instruction code
+Computer register
+Computer instruction
+Timing and control
+Instruction cycle
+Memory- reference instruction
+Input/ output interrupt. 
+Complete computer description
+Design if basic computer
+Design of accumulator logic
+
+Chapter-6: 
+Machine language
+Binary program- table
+Hexa decimal program- table
+Assembly language program- table
+Fortan program-  table
+Assembly language
+The assembler
+First-pass
+Second- pass
+Program Loop
+    - symbol program to add 100 numbers (table) 
+Program arithmetic and logic operations- sir's notes
+Sub-routines
+    - use sub-routine_table 6.16
+    - sub-routine parameter data❌
+    - sub-routine to move data ❌
+Input/ output programming
+   - program to input l output- 1 char ( table) 
+Program interrupt 
+    - char manipulation( look in general))
+   - program to service and interrupt ( table)
