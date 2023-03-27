@@ -13,21 +13,29 @@ Complete computer description
 Design if basic computer
 Design of accumulator logic
 
-Chapter-6: 
+Topics for chap 6 and 7. 
+
+Control memory
+Address sequencing
+Microprogramming ex 7.4
+Binary microprogramming excluded
+Symbolic mp excluded
+Design control unit
+6
 Machine language
-Assembly language program- table
-Fortan program-  table
 Assembly language
+First pass
+Second pass
+Flowchart
+Program loops
+6-6 excluded
+Table 6.9 excluded 
+Subroutine
+Data linkage excluded
+Input output programming
+6.2
+Program interrupt
+6-23
 
-First-pass
-Second- pass
-Program Loop
-    - symbol program to add 100 numbers (table) 
-
-Sub-routines
-    - use sub-routine_table 6.16
-Input/ output programming
-   - program to input l output- 1 char ( table) 
-Program interrupt 
-    - char manipulation( look in general))
-   - program to service and interrupt ( table)
+7.3 mapping
+Design of ac
