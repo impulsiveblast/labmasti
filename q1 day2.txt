@@ -1,43 +1,6 @@
-https://youtu.be/BqQNO7BzN08
-
-COA Topics list
-
-Chapter-5:
-
-Instruction code
-Computer register
-Computer instruction
-Timing and control
-Instruction cycle
-Memory- reference instruction
-Input/ output interrupt. 
-Complete computer description
-Design if basic computer
-Design of accumulator logic
-
-Topics for chap 6 and 7. 
-
-Control memory
-Address sequencing
-Microprogramming ex 7.4
-Binary microprogramming excluded
-Symbolic mp excluded
-Design control unit
-6
-Machine language
-Assembly language
-First pass
-Second pass
-Flowchart
-Program loops
-6-6 excluded
-Table 6.9 excluded 
-Subroutine
-Data linkage excluded
-Input output programming
-6.2
-Program interrupt
-6-23
-
-7.3 mapping
-Design of ac
+<div style="border-width: 10px 5px 20px 3px;
+            border-style: solid dotted dashed double;
+            border-color: red blue green yellow;
+            padding: 10px;">
+    div with different borders
+</div>
