@@ -1,6 +1,11 @@
-<div style="border-width: 10px 5px 20px 3px;
-            border-style: solid dotted dashed double;
-            border-color: red blue green yellow;
-            padding: 10px;">
-    div with different borders
-</div>
+1. Multiplication of two Matrices in Single line using Numpy in Python.  2. Dot product of two Matrices in Single line using Numpy in Python.  3. Element wise multiplication of two Matrices in Single line using Numpy in Python.
+4. Flatten 2d array using flatten and ravel functions in numpy.
+5.Splitting Arrays in NumPy
+6. Find unique rows in a NumPy array.
+7. How to Copy NumPy array into another array? 
+How to swap columns of a given NumPy array? 
+8. Trim the leading and/or trailing zeros from a 1-D array.
+9. Insert a new axis within a NumPy array.
+10. Compute the inverse of a matrix using NumPy.
+11. Get the indices for the lower-triangle of an 2d NumPy array.
+12. Compute the eigenvalues and right eigenvectors of a given square array using NumPy.
